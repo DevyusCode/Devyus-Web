@@ -6,6 +6,10 @@ const nextConfig = {
         source: "/synethia/:path*",
         destination: "/synethia/:path*/index.html",
       },
+      {
+        source: "/xvalid/:path*",
+        destination: "/xvalid/:path*/index.html",
+      },
     ];
   },
 };

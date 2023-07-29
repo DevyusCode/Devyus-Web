@@ -2,7 +2,6 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Inter } from "next/font/google";
-import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +22,7 @@ export default function RootLayout({
         defaultTheme="system"
         enableSystem
       ></ThemeProvider>
-      <Head>
+      <head>
         <link
           rel="apple-touch-icon"
           sizes="57x57"
@@ -97,7 +96,7 @@ export default function RootLayout({
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
-      </Head>
+      </head>
       <body className={inter.className + " dark:bg-black"}>{children}</body>
     </html>
   );

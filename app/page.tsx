@@ -22,7 +22,7 @@ export default function Home() {
           />
           <span>
             <h3 className="font-bold text-lg">PeyrSharp</h3>
-            <p>A C# library designed to make developers' job easier.</p>
+            <p>A C# library designed to make developers&apos; job easier.</p>
           </span>
           <ArrowRight className="icon mr-2" />
         </a>

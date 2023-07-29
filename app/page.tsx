@@ -10,7 +10,7 @@ export default function Home() {
       </section>
       <section className="flex flex-wrap justify-center">
         <a
-          href=""
+          href="https://peyrsharp.leocorporation.dev"
           className="grid grid-cols-[auto,1fr,auto] items-center p-4 m-4 border dark:border-slate-800 border-slate-300 rounded-lg max-w-[450px] app-el backdrop-blur-lg"
         >
           <Image
@@ -27,7 +27,7 @@ export default function Home() {
           <ArrowRight className="icon mr-2" />
         </a>
         <a
-          href=""
+          href="https://dev.peyronnet.group/synethia"
           className="grid grid-cols-[auto,1fr,auto] items-center p-4 m-4 border dark:border-slate-800 border-slate-300 rounded-lg max-w-[450px] app-el backdrop-blur-lg"
         >
           <Image
@@ -47,7 +47,7 @@ export default function Home() {
           <ArrowRight className="icon mr-2" />
         </a>
         <a
-          href=""
+          href="https://dev.peyronnet.group/xvalid"
           className="grid grid-cols-[auto,1fr,auto] items-center p-4 m-4 border dark:border-slate-800 border-slate-300 rounded-lg max-w-[450px] app-el backdrop-blur-lg"
         >
           <Image

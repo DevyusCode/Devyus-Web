@@ -6,7 +6,7 @@ export default function Home() {
     <main className="dark:text-white dark:bg-black bg-img p-5 min-h-screen flex flex-col items-center justify-center">
       <section className="text-center">
         <h1 className="font-bold text-7xl">Devyus</h1>
-        <p>Work in progress...</p>
+        <p>Developer tools that make your life easier.</p>
       </section>
       <section className="flex flex-wrap justify-center">
         <a
